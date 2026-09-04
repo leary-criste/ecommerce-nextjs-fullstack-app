@@ -25,4 +25,4 @@ export const checkoutAction = async (formData: FormData): Promise<void> => {
   });
 
   redirect(session.url!);
-};
+};
